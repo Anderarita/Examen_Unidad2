@@ -72,6 +72,7 @@ export const AmortizationPlan = () => {
               <Text style={styles.text}>{item.lateInterest.toFixed(2)}</Text>
               <Text style={styles.text}>{item.totalPayment.toFixed(2)}</Text>
               <Text style={styles.text}>{item.balance.toFixed(2)}</Text>
+              
             </View>
           )}
         />
